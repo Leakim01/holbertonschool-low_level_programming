@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+/* main find random number */
 /* betty style doc for function main goes there */
 int main(void)
-/* main - find the random number */
 {
 	int n;
 
