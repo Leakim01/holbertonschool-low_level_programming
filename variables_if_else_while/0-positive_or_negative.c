@@ -9,7 +9,7 @@
  *
  * betty style doc for function main goes there
  *
- * return - value specified
+ * return : 0 value specified
  */
 
 int main(void)
