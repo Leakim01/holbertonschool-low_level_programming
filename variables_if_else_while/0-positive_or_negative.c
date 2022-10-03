@@ -8,6 +8,8 @@
  * more headers goes there
  *
  * betty style doc for function main goes there
+ *
+ * return - value specified
  */
 
 int main(void)
