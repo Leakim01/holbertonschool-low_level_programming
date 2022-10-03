@@ -18,17 +18,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n < 0)
+	md = n%10;
+	if (md > 5)
 	{
-		printf("%d is negative\n", n);
+		printf("%d Last digit of is md is greater than 5\n", n);
 	}
-	else if (n > 0)
+	else if (0 < md < 6)
 	{
-		printf("%d is positive\n", n);
+		printf("%d Last digit of md is less than and not 0\n", n);
 	}
 	else
 	{
-		printf("%d is zero\n", n);
+		printf("%d Last digit of md is zero\n", n);
 	}
 	return (0);
 }
