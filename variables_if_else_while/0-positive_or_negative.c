@@ -6,7 +6,7 @@
  * main - Entry Point
  *
  * more headers goes there
- * 
+ *
  * betty style doc for function main goes there
  */
 
