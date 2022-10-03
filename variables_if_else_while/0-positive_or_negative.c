@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 int main(void)
-/* find the random number */
+/* main - find the random number */
 {
 	int n;
 
