@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_ isalpha - Entry Point
+* _isalpha - Entry Point
 * @c: Character
 *
 * more headers goes there
