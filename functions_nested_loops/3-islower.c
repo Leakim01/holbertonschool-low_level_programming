@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* int _islower - Entry Point
-*@c: Character
+* _islower - Entry Point
+* @c: Character
 *
 * more headers goes there
 *
