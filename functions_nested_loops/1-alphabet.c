@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - Entry Point
+* print_alphabet - Entry Point
 *
 * more headers goes there
 *
@@ -11,16 +11,17 @@
 * Return: always 0 value
 */
 
-void print_alphabet(void);
+void print_alphabet(void)
 
 {
-	int i = a
-	for (i <= z, c++);
+	int i = 'a';
+	for (; i <= 'z'; i++)
 		
-		putchar(i);
+	{
+		_putchar(i);
 
-		putchar('\n')
+	}
 
-	
-	return (0);
+		_putchar('\n');
+
 }
