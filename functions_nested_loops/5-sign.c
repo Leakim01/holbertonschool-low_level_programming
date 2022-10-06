@@ -31,6 +31,6 @@ int print_sign(int n)
 
 	{
 	_putchar ('-');
-		return (0);
+		return (-1);
 	}
 }
