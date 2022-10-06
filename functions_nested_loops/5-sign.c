@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _print_sign - Entry Point
+* print_sign - Entry Point
 * @n: Character
 *
 * more headers goes there
