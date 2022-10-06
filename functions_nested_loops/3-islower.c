@@ -5,6 +5,8 @@
 *
 * more headers goes there
 *
+* @parameterx: (description of parameter x)
+*
 * betty style doc for function main goes there
 *
 * Return: always 0 value
