@@ -1,20 +1,33 @@
 #include "main.h"
 
 /**
-* print_last - Entry Point
+* print_last_digit - Entry Point
 * @i: input
 *
 * more headers goes there
 *
 * betty style doc for function main goes there
 *
-* Return: 1, 0 or -1
+* Return: The Last Digit of a Number
 */
 
-int print_last_digit(int i);
-
+int print_last_digit(int i)
 {
-	_putchar(i % 10);
-	return (i %c 10);
+	int mod = i % 10;
 
+	if (mod > 0)
+	{
+	_putchar(mod + '0');
+	return (mod);
+	}
+	else if (mod == 0)
+	{
+	_putchar(mod + '0');	/* '0'(char ascii) = 48 en décimal */
+	return (mod);
+	}
+	else
+	{
+	_putchar(-mod + '0');
+	return (-mod);
+	}
 }
