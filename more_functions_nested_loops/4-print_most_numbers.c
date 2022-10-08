@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_numbers - Entry Point
+ * print_most_numbers - Entry Point
  *
  * more headers goes there
  *
