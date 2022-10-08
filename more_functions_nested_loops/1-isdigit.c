@@ -11,8 +11,9 @@
  * Return: The Last Digit of a Number
  */
 
-int _isdigit(int c);
+int _isdigit(int c)
 {
+
 	if (c >= '0' && c <= '9')
 	{
 		return (1);
