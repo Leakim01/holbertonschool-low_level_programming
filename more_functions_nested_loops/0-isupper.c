@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * jack_bauer - Entry Point
- * @h, m: input
+ * _isupper - Entry Point
+ * @c: input
  *
  * more headers goes there
  *
@@ -13,7 +13,8 @@
 
 int _isupper(int c)
 {
-	if (c = 'A', c <= 'Z', c++)
+
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
