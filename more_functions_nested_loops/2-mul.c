@@ -4,7 +4,6 @@
  * mul - Entry Point
  * @a: integer a
  * @b: integer b
- * @c: result c
  *
  * more headers goes there
  *
