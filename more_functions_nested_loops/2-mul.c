@@ -2,13 +2,15 @@
 
 /**
  * mul - Entry Point
- * @a, b: input
+ * @a: integer a
+ * @b: integer b
+ * @c: result c
  *
  * more headers goes there
  *
  * betty style doc for function main goes there
  *
- * Return: The Last Digit of a Number
+ * Return: The Result
  */
 
 int mul(int a, int b)
