@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * print_diagonal - Entry Point
- * @n: Multiply
+ * reset_to_98 - Entry Point
+ * @n: Value to change from 402 to 98
  *
- * more headers goes there
+ * More Headers Goes There
  *
- * betty style doc for function main goes there
+ * Betty style doc for function main goes there
  *
  * Return: always 0 value
  */
