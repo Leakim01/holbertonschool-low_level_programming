@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strlen - Entry Point
+ * _puts - Entry Point
  * @s: Value to change from 402 to 98
  *
  * More Headers Goes There
@@ -19,6 +19,6 @@ void _puts(char *str)
 	for (i = 0; str[i]; i++)
 		{
 		_putchar (str[i]);
-		_putchar('\n');
 		}
+	_putchar ('\n');
 }
