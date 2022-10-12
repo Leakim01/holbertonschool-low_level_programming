@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * puts2 - Entry Point
+ * puts_half - Entry Point
  * @str: Strings
  *
  * More Headers Goes There
