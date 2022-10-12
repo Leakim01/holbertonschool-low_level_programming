@@ -3,7 +3,7 @@
 
 /**
  * _puts - Entry Point
- * @s: Value to change from 402 to 98
+ * @str: Strings
  *
  * More Headers Goes There
  *
