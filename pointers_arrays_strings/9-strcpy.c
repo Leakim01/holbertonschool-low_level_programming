@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * puts_half - Entry Point
- * @str: Strings
+ * _strcpy - Entry Point
+ * @dest: Strings
+ * @src: Pointeur to the function
  *
  * More Headers Goes There
  *
@@ -14,3 +15,12 @@
 
 char *_strcpy(char *dest, char *src)
 {
+	int i;
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
+	return (dest);
+}
