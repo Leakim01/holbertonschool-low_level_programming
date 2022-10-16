@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * _strcat - Entry Point
+ * _strncpy - Entry Point
  * @dest: Destination
  * @src: Source
+ * @n: Bytes
  *
  * More Headers Goes There
  *
@@ -13,13 +14,17 @@
  * Return: always 0 value
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
-	int n;
+	int i = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	for (; i < n && src[i] != '\0'; i++)
 	{
+		dest[i] = src[i];
 	}
-	return (dest);
+		for (; i < n; i++)
+		{
+		dest[i] = '\0';
+	}
+return (dest);
 }
