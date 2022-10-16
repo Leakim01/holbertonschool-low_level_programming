@@ -3,9 +3,8 @@
 
 /**
  * _strcmp - Entry Point
- * @dest: Strings
- * @src: Pointeur to the function
- * @n: Number of the Bytes
+ * @s1: Strings
+ * @s2: Pointeur to the function
  *
  * More Headers Goes There
  *
