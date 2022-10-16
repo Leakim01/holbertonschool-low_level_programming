@@ -14,7 +14,7 @@
 
 char *cap_string(char *ptr)
 {
-	char sep[] = ", ;.!?\"(){}";
+	char sep[] = ", ;.!?\"(){}\t\n";
 	int i;
 	int n;
 
@@ -23,7 +23,7 @@ char *cap_string(char *ptr)
 		for (n = 0; sep[n] != '\0'; n++)
 		{
 			if (ptr[i] == sep[n])
-				ptr[i] = ptr[i] - 32;
+				ptr[i + 1] = ptr[i + 1] - 32;
 		}
 	}
 	return (ptr);
