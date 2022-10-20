@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - Entry Point
+ * _print_rev_recursion - Entry Point
  * @s: String
  *
  * More Headers Goes There
