@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- * _square - Entry Point
+ * square - Entry Point
  * @x: Inconnu 1
- *
- * square - Second Entry Point
- * @n: Inconnu 2
+ * @z: Inconnu 2
  *
  * More Headers Goes There
  *
@@ -15,21 +13,18 @@
  * Return: always 0 value
  */
 
-int square(int x, int n)
+int square(int x, int z)
 {
-	if (x * x == n)
+	if (x * x == z)
 	{
 		return (x);
 	}
-	else if (x * x < n)
+	else if (x * x > z)
 	{
-		return (x);
+		return (-1);
 	}
-	else
-	{
-		return (0);
-	}
-}
+	return (square(x + 1, z));
+
 
 /**
  * _sqrt_recursion - Entry Point
@@ -48,5 +43,5 @@ int _sqrt_recursion(int n)
 	{
 		return (0);
 	}
-	return square(1, n);
+	return (square(1, n));
 }
