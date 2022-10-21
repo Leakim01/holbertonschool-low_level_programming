@@ -25,6 +25,7 @@ int square(int x, int n)
 	{
 		return (-1);
 	}
+	return (0);
 }
 
 /**
