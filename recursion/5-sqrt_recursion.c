@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - Entry Point
+ * _square - Entry Point
  * @x: Inconnu 1
  *
  * square - Second Entry Point
@@ -28,7 +28,7 @@ int square(int x, int n)
 }
 
 /**
- * _square_recursion - Entry Point
+ * _sqrt_recursion - Entry Point
  * @n: String
  *
  * More Headers Goes There
