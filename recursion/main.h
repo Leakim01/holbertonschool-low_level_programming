@@ -7,6 +7,8 @@
 #include <unistd.h>
 #include <string.h>
 
+int _pow_recursion(int x, int y);
+int _strlen_recursion(char *s);
 void _print_rev_recursion(char *s);
 void _puts_recursion(char *s);
 char *_memset(char *s, char b, unsigned int n);
