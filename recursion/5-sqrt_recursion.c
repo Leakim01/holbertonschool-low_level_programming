@@ -21,11 +21,14 @@ int square(int x, int n)
 	{
 		return (x);
 	}
-	else if (x * x > n)
+	else if (x * x < n)
 	{
-		return (-1);
+		return (x);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
 
 /**
