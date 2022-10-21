@@ -24,7 +24,7 @@ int square(int x, int z)
 		return (-1);
 	}
 	return (square(x + 1, z));
-
+}
 
 /**
  * _sqrt_recursion - Entry Point
@@ -40,8 +40,6 @@ int square(int x, int z)
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
-	{
 		return (0);
-	}
 	return (square(1, n));
 }
