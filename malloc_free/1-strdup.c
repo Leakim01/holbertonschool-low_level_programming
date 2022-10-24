@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strdup - Entry Point
+ * _strdup - Entry Point
  * @str: Variable 1
  *
  * More Headers Goes There
@@ -35,9 +35,10 @@ char *_strdup(char *str)
 		return (NULL);
 		}
 
-	for (i = 0; i != '\0'; i++)
+	for (i = 0; i < size; i++)
 		{
 		s[i] = str[i];
 		}
-	return (str);
+	s[i] = '\0';
+	return (s);
 }
