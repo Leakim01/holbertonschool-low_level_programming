@@ -8,6 +8,7 @@
 #include <string.h>
 #include <math.h>
 
+char *_strdup(char *str);
 char *create_array(unsigned int size, char c);
 int factorial(int n);
 int _sqrt_recursion(int n);
