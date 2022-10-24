@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *tab;
 	unsigned int n;
-	
+
 	if (size == 0)
 	return (NULL);
 
