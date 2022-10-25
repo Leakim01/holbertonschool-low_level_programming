@@ -48,6 +48,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		tab_s[y + z] = s2[z];
 	}
-	tab_s[z] = '\0';
+	tab_s[y + z] = '\0';
 	return (tab_s);
 }
