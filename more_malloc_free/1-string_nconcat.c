@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * str_concat - Entry Point
+ * string_nconcat - Entry Point
  * @s1: Variable 1
  * @s2: Variable 2
- * @n: EEmpty batlec
+ * @n: Empty batlec
+ *
  * More Headers Goes There
  *
  * Betty style doc for function main goes there
