@@ -1,16 +1,26 @@
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 /**
- * #include "dog.h"
- * #include "main.h"
- *
- * init_dog - Short description
+ * print_dog - Short description
  * @d: pointer
- * @name: First member
- * @age: Second member
- * @owner: Third member
  *
  * Description: Longer description
  */
 
 void print_dog(struct dog *d)
 {
+	if (d != NULL)
+	{
+		if (d->name == NULL)
+			d->name = "(nil)";
+		if (d->owner == NULL)
+			d->owner = "(nil)";
+
+		printf("Name: %s\n", d->name);
+		printf("Age: %f\n", d->age);
+		printf("Owner: %s\n", d->owner);
+	}
+
 }
