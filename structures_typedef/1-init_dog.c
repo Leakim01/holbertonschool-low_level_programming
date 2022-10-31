@@ -1,4 +1,5 @@
 #include "dog.h"
+
 /**
  * init_dog - Short description
  * @d: pointer
