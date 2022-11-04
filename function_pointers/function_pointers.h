@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 
+void array_iterator(int *array, size_t size, void (*action)(int));
 void print_name(char *name, void (*f)(char *));
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
