@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - Short description
+ * free_listint - Short description
  * @head: pointer
  *
  * Description: Longer description
