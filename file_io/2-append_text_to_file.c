@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-* create_file - Short description
+* append_text_to_file - Short description
 * @filename: Pointer vers Fichier
 * @text_content: Pointer vers Contenu
 *
 * Description: Longer description
 *
-* Return: Value ??
+* Return: Value 1
 */
 
 int append_text_to_file(const char *filename, char *text_content)
