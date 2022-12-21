@@ -8,6 +8,7 @@
 #include <string.h>
 #include <stdarg.h>
 
+void print_all(const char * const format, ...);
 int sum_them_all(const unsigned int n, ...);
 int int_index(int *array, int size, int (*cmp)(int));
 void array_iterator(int *array, size_t size, void (*action)(int));
